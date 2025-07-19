@@ -4,10 +4,10 @@
   - Uses Vue Router for navigation
   - Mobile-first, Ghana-optimized
   - Follows Impalia Project Development Guidelines
+  - Shows solid underline for active and hovered navigation items without shifting
 -->
 
 <template>
-  <!-- ===== Navigation Header ===== -->
   <nav class="bg-secondary shadow-md border-b border-gray-200 sticky top-0 z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
@@ -24,31 +24,29 @@
           </h1>
         </div>
 
-        <!-- ===== [New Feature] START ===== -->
-        <!-- Desktop Navigation using Vue Router -->
+        <!-- ===== Desktop Navigation ===== -->
         <div class="hidden md:flex space-x-8">
           <router-link
             to="/"
-            class="text-primary hover:text-primary font-large transition-all duration-300 border-b-4 border-[#d2beea] hover:border-[#d2beea]"
-            exact-active-class="border-[#d2beea]"
+            class="text-primary font-large transition-all duration-300 border-b-4 border-transparent hover:border-white"
+            exact-active-class="border-white"
           >Home</router-link>
           <router-link
             to="/events"
-            class="text-primary hover:text-primary font-large transition-all duration-300 border-b-4 border-[#d2beea] hover:border-[#d2beea]"
-            exact-active-class="border-[#d2beea]"
+            class="text-primary font-large transition-all duration-300 border-b-4 border-transparent hover:border-white"
+            exact-active-class="border-white"
           >Events</router-link>
           <router-link
             to="/about"
-            class="text-primary hover:text-primary font-large transition-all duration-300 border-b-4 border-[#d2beea] hover:border-[#d2beea]"
-            exact-active-class="border-[#d2beea]"
+            class="text-primary font-large transition-all duration-300 border-b-4 border-transparent hover:border-white"
+            exact-active-class="border-white"
           >About</router-link>
           <router-link
             to="/contact"
-            class="text-primary hover:text-primary font-large transition-all duration-300 border-b-4 border-[#d2beea] hover:border-[#d2beea]"
-            exact-active-class="border-[#d2beea]"
+            class="text-primary font-large transition-all duration-300 border-b-4 border-transparent hover:border-white"
+            exact-active-class="border-white"
           >Contact</router-link>
         </div>
-        <!-- ===== [New Feature] END ===== -->
 
         <!-- Mobile Menu Button -->
         <div class="md:hidden">
@@ -60,37 +58,35 @@
         </div>
       </div>
 
-      <!-- ===== [New Feature] START ===== -->
-      <!-- Mobile Navigation Menu using Vue Router -->
+      <!-- ===== Mobile Navigation ===== -->
       <div v-show="isMobileMenuOpen" class="md:hidden pb-4">
         <div class="flex flex-col space-y-2">
           <router-link
             to="/"
             @click="closeMobileMenu"
-            class="text-primary hover:text-primary font-medium py-2 transition-colors"
-            exact-active-class="border-b-4 border-[#d2beea]"
+            class="text-primary font-medium py-2 border-b-4 border-transparent hover:border-white transition-all duration-300"
+            exact-active-class="border-white"
           >Home</router-link>
           <router-link
             to="/events"
             @click="closeMobileMenu"
-            class="text-primary hover:text-primary font-medium py-2 transition-colors"
-            exact-active-class="border-b-4 border-[#d2beea]"
+            class="text-primary font-medium py-2 border-b-4 border-transparent hover:border-white transition-all duration-300"
+            exact-active-class="border-white"
           >Events</router-link>
           <router-link
             to="/about"
             @click="closeMobileMenu"
-            class="text-primary hover:text-primary font-medium py-2 transition-colors"
-            exact-active-class="border-b-4 border-[#d2beea]"
+            class="text-primary font-medium py-2 border-b-4 border-transparent hover:border-white transition-all duration-300"
+            exact-active-class="border-white"
           >About</router-link>
           <router-link
             to="/contact"
             @click="closeMobileMenu"
-            class="text-primary hover:text-primary font-medium py-2 transition-colors"
-            exact-active-class="border-b-4 border-[#d2beea]"
+            class="text-primary font-medium py-2 border-b-4 border-transparent hover:border-white transition-all duration-300"
+            exact-active-class="border-white"
           >Contact</router-link>
         </div>
       </div>
-      <!-- ===== [New Feature] END ===== -->
     </div>
   </nav>
 </template>

@@ -6,7 +6,7 @@
           
           <!-- Mobile: Image on top -->
           <div class="lg:hidden mb-8">
-            <div class="aspect-square bg-gray-100 rounded-impalia flex items-center justify-center border-2 border-pink-500">
+            <div class="aspect-square bg-gray-100 rounded-impalia flex items-center justify-center border-2 border-pink-500 hover:shadow-xl hover:shadow-secondary">
                   <!-- ===== [New Feature] START ===== -->
             <!-- Replace SVG placeholder with actual hero image -->
             <img
@@ -31,14 +31,15 @@
             <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
               Join us as we raise funds, spread awareness, and create impact together.
             </p>
-            <button class=" bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea]  hover:text-secondary transition-colors min-h-touch-min mx-auto block lg:inline-block">
+            <button
+             class=" bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea]  hover:text-secondary transition-colors min-h-touch-min mx-auto block lg:inline-block text-center">
               Learn More
-            </button>
+          </button>
           </div>
           
           <!-- Desktop: Image on right -->
           <div class="hidden lg:block">
-            <div class="aspect-square bg-gray-100 rounded-impalia flex items-center justify-center border-2 border-pink-500">
+            <div class="aspect-square bg-gray-100 rounded-impalia flex items-center justify-center border-2 border-pink-500 hover:shadow-xl hover:shadow-secondary">
                 <!-- ===== [New Feature] START ===== -->
             <!-- Replace SVG placeholder with actual hero image -->
             <img

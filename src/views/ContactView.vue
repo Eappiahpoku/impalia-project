@@ -209,21 +209,7 @@
     </section>
 
     <!-- ===== Comprehensive Contact Information ===== -->
-    <section class="bg-white py-16 px-4">
-      <div class="max-w-7xl mx-auto">
-        <div class="text-center mb-12">
-          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-impalia">All Contact Methods</h2>
-          <p class="text-gray-600 max-w-2xl mx-auto">
-            Every way you can reach The Impalia Project team. We're here to help with any questions or ideas you have!
-          </p>
-        </div>
-
-        <!-- ===== [COMPREHENSIVE CONTACT SECTION] START ===== -->
-        <!-- Include the existing ContactSection component -->
-        <ContactSection />
-        <!-- ===== [COMPREHENSIVE CONTACT SECTION] END ===== -->
-      </div>
-    </section>
+   
 
     <!-- ===== Response Time Information ===== -->
     <section class="bg-gray-900 text-white py-16 px-4">
@@ -267,12 +253,6 @@
             <p class="text-white/80 text-sm">Usually very quick!</p>
           </div>
         </div>
-
-        <div class="mt-12 text-center">
-          <p class="text-white/70 text-sm">
-            All response times are during Ghanaian business hours (Monday - Friday, 8 AM - 6 PM GMT)
-          </p>
-        </div>
       </div>
     </section>
 <div class="p-10"></div>
@@ -289,7 +269,7 @@
 // Professional and clean layout consistent with HomeView.vue structure.
 
 // ===== Component Imports =====
-import ContactSection from '@/components/layout/ContactSection.vue'
+
 import FooterSection from '@/components/layout/FooterSection.vue'
 import MottoAnimation from '@/components/layout/Motto/MottoAnimation.vue'
 

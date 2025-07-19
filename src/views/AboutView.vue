@@ -285,7 +285,7 @@
     </section>
 
     <!-- ===== Contact Section ===== -->
-    <ContactSection />
+    
 <div class="p-2"></div>
     <!-- ===== Footer Section ===== -->
     <FooterSection />
@@ -299,7 +299,7 @@
 // Mobile-first design optimized for Ghanaian users with touch-friendly interactions.
 
 // ===== Component Imports =====
-import ContactSection from '@/components/layout/ContactSection.vue'
+
 import FooterSection from '@/components/layout/FooterSection.vue'
 import MemberCarousel from '@/components/layout/MemberCarousel.vue'
 import MottoAnimation from '@/components/layout/Motto/MottoAnimation.vue';

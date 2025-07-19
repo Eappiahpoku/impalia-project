@@ -90,9 +90,12 @@
       <!-- ===== [FOOTER BOTTOM] START ===== -->
       <!-- Copyright & Legal -->
       <div class="border-t border-white/20 pt-6 text-center">
+        <!-- ===== [New Feature] START ===== -->
+        <!-- Copyright year is now reactive -->
         <p class="text-white/80 text-sm">
-          © 2024 The Impalia Project. All rights reserved.
+          © {{ currentYear }} The Impalia Project. All rights reserved.
         </p>
+        <!-- ===== [New Feature] END ===== -->
         <p class="text-white/70 text-xs mt-2">
           A student-led initiative from SOS-HGIC
         </p>
@@ -108,6 +111,14 @@
 // This component displays the footer section for The Impalia Project.
 // Features functional contact links, school information, and brand identity.
 // Mobile-first design optimized for Ghanaian users with touch-friendly targets.
+
+// ===== Main Logic =====
+/**
+ * Reactive current year for copyright.
+ * Updates automatically every year.
+ */
+import { computed } from 'vue'
+const currentYear = computed(() => new Date().getFullYear())
 
 // ===== Future Enhancement Notes =====
 // TODO: Add social media links when available (TikTok, Snapchat)

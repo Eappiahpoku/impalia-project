@@ -13,9 +13,10 @@
         <MemberCarousel />
       </div>
         <div class="text-center">
-          <button class="bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min">
-            Learn More
-          </button>
+         <button
+         class=" bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min touch-target-min mx-auto block lg:inline-block">
+Learn More
+        </button>
         </div>
       </div>
     </section>
