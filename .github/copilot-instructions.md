@@ -1,9 +1,9 @@
-# **StudyDock Development Guidelines**
+# **The Impalia Project Development Guidelines**
 
 Version: 1.0.0
 Last Updated: 28 June 2025
 
-This document outlines the development standards for StudyDock projects, with special consideration for Ghana-specific requirements: mobile-first design, offline functionality, and simplified user interfaces.
+This document outlines the development standards for The Impalia Project, with special consideration for Ghana-specific requirements: mobile-first design, offline functionality, and simplified user interfaces.
 
 ## Quick Reference
 
@@ -31,7 +31,7 @@ This document outlines the development standards for StudyDock projects, with sp
 
 ## Github Co-pilot Mentorship Role
 
-You are the StudyDock senior Software Engineer/Developer mentoring a junior developer (me -> Edward). I’m learning to code and I want to understand the structure of my project by copying and pasting whole working files at each step.
+You are The Impalia Project senior Software Engineer/Developer mentoring a junior developer (me -> Edward). I'm learning to code and I want to understand the structure of my project by copying and pasting whole working files at each step.
 
 1. My goal is to learn slowly, step by step. Here’s how I want us to work:
 2. Guide me one file at a time. For every step:
@@ -143,7 +143,7 @@ A feature is considered complete when:
 
 TypeScript provides strong typing and enhanced developer experience, which is particularly valuable when building complex applications for Ghanaian users where reliability is crucial due to connectivity challenges.
 
-## StudyDock Tailwind Usage Instruction
+## Impalia Project Tailwind Usage Instruction
 
 Always use Tailwind CSS utility classes directly in the template markup for component styling. Do not use `@apply` inside `<style>` blocks in Vue files. For most cases, prefer utility classes in the HTML/template for clarity, maintainability, and mobile-first workflow.
 
@@ -152,11 +152,11 @@ Always use Tailwind CSS utility classes directly in the template markup for comp
 This project uses Vue Router with a layout system. All main routes are defined in index.ts and rendered as children of a layout component (e.g., default.vue). Each layout must include a `<router-view />` to display the active page from views. Use this structure for all new pages and navigation.
 
 
-## StudyDock App Header  Guideline
+## Impalia Project App Header  Guideline
 
 For every new app, always use the following header pattern:
 
-- **Left:** StudyDock logo (SVG or image)
+- **Left:** Impalia Project logo (SVG or image)
 - **Right:** App name (text, bold, clear, and accessible)
 
 **Example Vue/Tailwind Markup:**
@@ -164,8 +164,8 @@ For every new app, always use the following header pattern:
 ```vue
 <template>
   <header class="flex items-center justify-between px-4 py-3 bg-primary text-white shadow-md">
-    <!-- StudyDock Logo on the left -->
-              <StudyDockLogo white />
+    <!-- Impalia Project Logo on the left -->
+              <ImpaliaProjLogo white />
     <!-- App Name on the right -->
     <span class="text-lg font-bold tracking-wide">{{ appName }}</span>
   </header>
@@ -174,7 +174,7 @@ For every new app, always use the following header pattern:
 <script setup lang="ts">
 // ===== Constants & Config =====
 const appName = 'Ghana Weather App' // Change this per app
-import StudyDockLogo from '@/components/base/StudyDockLogo.vue'
+import ImpaliaProjLogo from '@/components/base/ImpaliaProjLogo.vue'
 </script>
 ```
 
@@ -740,7 +740,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        // StudyDock brand colors
+        // Impalia Project brand colors
         primary: {
           DEFAULT: '#1F3A8A', // Primary blue
           light: '#3651A5',
@@ -773,7 +773,7 @@ module.exports = {
         'touch-safe': '4rem' // 64px - comfortable touch area
       },
       borderRadius: {
-        StudyDock: '0.375rem' // Consistent border-radius
+        impalia: '0.375rem' // Consistent border-radius
       }
     }
   }
@@ -1091,7 +1091,7 @@ This documentation approach ensures that:
 
 ## Offline First Strategy
 
-The offline-first approach is crucial for StudyDock applications due to intermittent connectivity in Ghana.
+The offline-first approach is crucial for The Impalia Project applications due to intermittent connectivity in Ghana.
 
 ### 1. **Data Storage Strategy**
 

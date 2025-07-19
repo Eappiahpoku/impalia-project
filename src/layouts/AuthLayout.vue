@@ -4,7 +4,7 @@
     <header class="flex items-center justify-between px-4 py-3 bg-primary-600 shadow-sm">
       <div class="flex items-center space-x-2">
         <!-- Logo placeholder - replace with actual logo -->
-        <StudyDockLogo white />
+        <ImpaliaProjLogo white />
         <span class="text-lg font-semibold text-white">
           {{ appName }}
         </span>
@@ -35,8 +35,9 @@
   import { computed } from 'vue'
   import { useNetworkStatus } from '@/composables/useNetworkStatus.ts'
   import OfflineIndicator from '@/components/base/OfflineIndicator.vue'
-  import StudyDockLogo from '@/components/base/StudyDockLogo.vue'
+
   import Footer from '@/components/common/Footer.vue'
+import ImpaliaProjLogo from '@/components/base/ImpaliaProjLogo.vue'
 
   // ===== Constants & Config =====
   const appName = 'StudyDock Auth' // Change this based on your app name

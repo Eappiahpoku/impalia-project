@@ -1,47 +1,37 @@
+<!-- filepath: c:\Users\Edward Appiah Poku\Documents\development\impalia-project\src\views\HomeView.vue -->
 <template>
-  <main class="min-h-screen flex items-center justify-center bg-gray-50">
-    <div class="max-w-md w-full mx-4 p-8 bg-white rounded-lg shadow-lg">
-      <h1 class="text-3xl font-bold text-center text-primary-dark mb-8">Welcome to StudyDock</h1>
+  <!-- ===== Main Container ===== -->
+  <div class="min-h-screen bg-white rounded-full">
+    
+   
+
+    <HeroSection/>
+     <MottoAnimation/>
+    <AboutSection/>
+
+    <!-- ===== Events Preview Section ===== -->
+    <section id="events" class="bg-white py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <EventSection/>
       
-      <form class="space-y-6" @submit.prevent>
-        <!-- Username Input -->
-        <div>
-          <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
-          <input
-            type="text"
-            id="username"
-            name="username"
-            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
-            placeholder="Enter your username"
-            required
-          />
-        </div>
+      </div>
+    </section>
 
-        <!-- Password Input -->
-        <div>
-          <label for="password" class="block text-sm font-medium text-gray-700 mb-1">Password</label>
-          <input
-            type="password"
-            id="password"
-            name="password"
-            class="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary"
-            placeholder="Enter your password"
-            required
-          />
-        </div>
-
-        <!-- Submit Button -->
-        <button
-          type="submit"
-          class="w-full bg-primary hover:bg-primary-dark text-white font-semibold py-3 px-4 rounded-md transition duration-300 ease-in-out transform hover:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
-        >
-          Sign In
-        </button>
-      </form>
-    </div>
-  </main>
+    <ContactSection/>
+    <FooterSection/>
+   
+  </div>
 </template>
 
 <script setup lang="ts">
-// Form will be non-functional as requested
+import AboutSection from '@/components/layout/AboutSection.vue';
+import ContactSection from '@/components/layout/ContactSection.vue';
+import EventSection from '@/components/layout/EventSection.vue';
+import FooterSection from '@/components/layout/FooterSection.vue';
+import HeroSection from '@/components/layout/HeroSection.vue';
+import MottoAnimation from '@/components/layout/Motto/MottoAnimation.vue';
+
+
+
+
 </script>

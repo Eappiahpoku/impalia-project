@@ -16,7 +16,7 @@
             width="32"
             height="32"
           /> -->
-          <StudyDockLogo white />
+          <ImpaliaProjLogo white />
           <span class="text-lg font-semibold text-white">StudyDock</span>
         </router-link>
       </div>
@@ -45,11 +45,11 @@
   </div>
 </template>
 
-<script setup lang="ts">
-  import StudyDockLogo from '@/components/base/StudyDockLogo.vue'
+<script setup lang="ts">  
   import OfflineIndicator from '../components/base/OfflineIndicator.vue'
   import { useNetworkStatus } from '@/composables/useNetworkStatus.ts'
   import { computed } from 'vue'
+import ImpaliaProjLogo from '@/components/base/ImpaliaProjLogo.vue'
 
   // Network status integration for offline mode
   const { networkInfo } = useNetworkStatus()

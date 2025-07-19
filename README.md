@@ -1,10 +1,10 @@
-# StudyDock Vue.js Boilerplate
+# The Impalia Project Website
 
-A specialized Vue.js boilerplate optimized for web development in Ghana, with built-in support for common challenges like intermittent connectivity, varying network speeds, and mobile-first design. Built with Vue 3, TypeScript, and Tailwind CSS.
+A student-led initiative from SOS-HGIC fighting poverty and homelessness through hope-driven community actions. Built with Vue 3, TypeScript, and Tailwind CSS.
 
 ## 🌍 Overview
 
-StudyDock boilerplate is a carefully crafted Vue.js framework that addresses the unique challenges of web development in Ghana. It includes built-in solutions for:
+The Impalia Project website is a carefully crafted Vue.js application that addresses the unique challenges of web development in Ghana. It includes built-in solutions for:
 
 - Offline-first functionality
 - Mobile money integration
@@ -29,7 +29,7 @@ StudyDock boilerplate is a carefully crafted Vue.js framework that addresses the
 
 ```bash
 git clone [repository-url]
-cd studydock-boilerplate-v3
+cd impalia-project
 ```
 
  Install dependencies:
