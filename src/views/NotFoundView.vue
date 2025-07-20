@@ -39,7 +39,7 @@ const isOnline = computed(() => networkInfo.value.isOnline)
       <div class="mt-8 flex justify-center">
         <router-link 
           to="/"
-          class="inline-flex items-center justify-center px-6 py-3 bg-primary text-white rounded-lg 
+          class="inline-flex items-center justify-center px-6 py-3 bg-secondary text-white rounded-lg 
                  hover:bg-primary-dark transition-colors font-medium
                  focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2
                  touch-target-[48px] min-w-[200px] text-lg"

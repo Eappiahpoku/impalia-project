@@ -30,7 +30,7 @@
   import OfflineIndicator from '@/components/base/OfflineIndicator.vue'
 import Navigation from '@/components/common/Navigation.vue';
 import Footer from '@/components/common/Footer.vue';
- 
+
 
  
 

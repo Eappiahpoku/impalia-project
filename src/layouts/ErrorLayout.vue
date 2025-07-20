@@ -1,26 +1,7 @@
 <template>
   <div class="error-layout flex flex-col" :class="rootClasses" role="document">
     <!-- Header with app logo/name -->
-    <header class="bg-primary-600 shadow-sm py-4" role="banner">
-      <div class="container mx-auto px-4">
-        <router-link
-          to="/"
-          class="flex items-center gap-2 router-link"
-          aria-label="Return to StudyDock homepage"
-        >
-          <!-- <img 
-            src="/icons/icon-96x96.png" 
-            alt="StudyDock Logo" 
-            class="w-8 h-8"
-            loading="eager"
-            width="32"
-            height="32"
-          /> -->
-          <ImpaliaProjLogo white />
-          <span class="text-lg font-semibold text-white">StudyDock</span>
-        </router-link>
-      </div>
-    </header>
+    <Navigation/>
 
     <!-- Main content area -->
     <main class="flex-1 container mx-auto px-4 py-8 flex flex-col items-center justify-center">
@@ -32,7 +13,7 @@
         <div class="mt-8">
           <router-link
             to="/"
-            class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-primary-600 hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
+            class="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-secondary hover:bg-primary-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500"
           >
             Back to Home
           </router-link>
@@ -43,13 +24,16 @@
     <!-- Offline indicator -->
     <OfflineIndicator />
   </div>
+  <FooterSection/>
 </template>
 
 <script setup lang="ts">  
   import OfflineIndicator from '../components/base/OfflineIndicator.vue'
   import { useNetworkStatus } from '@/composables/useNetworkStatus.ts'
   import { computed } from 'vue'
-import ImpaliaProjLogo from '@/components/base/ImpaliaProjLogo.vue'
+
+import Navigation from '@/components/common/Navigation.vue'
+import FooterSection from '@/components/layout/FooterSection.vue'
 
   // Network status integration for offline mode
   const { networkInfo } = useNetworkStatus()

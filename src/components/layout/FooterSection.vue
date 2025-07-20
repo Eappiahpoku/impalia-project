@@ -100,7 +100,7 @@
           A student-led initiative from SOS-HGIC
         </p>
          <p class="text-white/70 text-sm mt-2">
-       Built with 🤍 by <a href="www.edward.studydock.org">Edward Appiah-Poku </a> 
+       Built with 🤍 by <a href="https://www.edward.studydock.org">Edward Appiah-Poku </a> 
         </p>
       </div>
       <!-- ===== [FOOTER BOTTOM] END ===== -->
