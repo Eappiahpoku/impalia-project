@@ -45,7 +45,7 @@
           <!-- Event Content -->
           <div class="p-6">
             <div class="flex items-center justify-between mb-3">
-              <span class="text-sm text-secondary font-medium">March 2024</span>
+              <span class="text-sm text-secondary font-medium">June 2024</span>
               <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">Completed</span>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3 font-impalia">Car Wash & Bake Sale</h3>
@@ -81,7 +81,7 @@
           <!-- Event Content -->
           <div class="p-6">
             <div class="flex items-center justify-between mb-3">
-              <span class="text-sm text-secondary font-medium">April 2024</span>
+              <span class="text-sm text-secondary font-medium">July 2024</span>
               <span class="text-xs bg-green-100 text-green-800 px-2 py-1 rounded-full">Completed</span>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3 font-impalia">Community Soup Kitchen</h3>
@@ -117,7 +117,7 @@
           <!-- Event Content -->
           <div class="p-6">
             <div class="flex items-center justify-between mb-3">
-              <span class="text-sm text-secondary font-medium">May 2024</span>
+              <span class="text-sm text-secondary font-medium">August 2024</span>
               <span class="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded-full">Ongoing</span>
             </div>
             <h3 class="text-xl font-bold text-gray-900 mb-3 font-impalia">School Supply Drive</h3>
@@ -139,9 +139,13 @@
 
     <!-- Call to Action Button -->
     <div class="text-center mt-12">
-      <button class="bg-secondary hover:bg-[#d2beea] hover:text-secondary text-white px-8 py-3 rounded-impalia font-medium transition-colors duration-200 touch-target-min ">
+      <router-link
+        to="/events"
+        class="bg-secondary hover:bg-[#d2beea] hover:text-secondary text-white px-8 py-3 rounded-impalia font-medium transition-colors duration-200 touch-target-min"
+        aria-label="See all events"
+      >
         See All Events
-      </button>
+      </router-link>
     </div>
   </div>
 </template>

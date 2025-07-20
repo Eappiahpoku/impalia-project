@@ -13,10 +13,13 @@
         <MemberCarousel />
       </div>
         <div class="text-center">
-         <button
-         class=" bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min touch-target-min mx-auto block lg:inline-block">
-Learn More
-        </button>
+       <router-link
+            to="/about"
+            class="bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min touch-target-min mx-auto block lg:inline-block text-center"
+            aria-label="Learn more about us"
+          >
+            Learn More
+          </router-link>
         </div>
       </div>
     </section>

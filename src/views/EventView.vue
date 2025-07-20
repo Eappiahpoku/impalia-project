@@ -50,7 +50,7 @@
                 <path d="M19 3h-1V1h-2v2H8V1H6v2H5C3.89 3 3.01 3.9 3.01 5L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
               </svg>
             </div>
-            <div class="text-3xl font-bold text-secondary mb-2">15+</div>
+            <div class="text-3xl font-bold text-secondary mb-2">3+</div>
             <div class="text-sm text-gray-600">Events Organized</div>
           </div>
 
@@ -61,7 +61,7 @@
                 <path d="M16 4c0-1.11.89-2 2-2s2 .89 2 2-.89 2-2 2-2-.89-2-2zm4 18v-6h2.5l-2.54-7.63A2 2 0 0 0 18.13 7H16c-.8 0-1.54.37-2 1l-3 4v6h2v7h3v-7h2v7h3z"/>
               </svg>
             </div>
-            <div class="text-3xl font-bold text-secondary mb-2">500+</div>
+            <div class="text-3xl font-bold text-secondary mb-2">100+</div>
             <div class="text-sm text-gray-600">People Impacted</div>
           </div>
 
