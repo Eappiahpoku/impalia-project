@@ -9,9 +9,9 @@ async function generateIcons() {
   // Base SVG content for the app icon
   const baseIconSvg = `
     <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-      <rect width="512" height="512" fill="#1F3A8A"/>
+      <rect width="512" height="512" fill="#f11E7D"/>
       <text x="256" y="256" font-family="Arial" font-size="200" fill="white" text-anchor="middle" dominant-baseline="central">
-        S
+        I
       </text>
     </svg>
   `
@@ -32,7 +32,7 @@ async function generateIcons() {
   for (const { name, size } of iconSizes) {
     const iconSvg = `
       <svg width="96" height="96" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-        <rect width="96" height="96" fill="#1F3A8A"/>
+        <rect width="96" height="96" fill="#F11E7D"/>
         <text x="48" y="48" font-family="Arial" font-size="40" fill="white" text-anchor="middle" dominant-baseline="central">
           ${name[0].toUpperCase()}
         </text>
@@ -52,7 +52,7 @@ async function generateIcons() {
       <rect width="1080" height="1920" fill="#FFFFFF"/>
       <rect y="0" width="1080" height="80" fill="#1F3A8A"/>
       <text x="540" y="45" font-family="Arial" font-size="24" fill="white" text-anchor="middle" dominant-baseline="central">
-        StudyDock App
+        Impalia Project
       </text>
       <text x="540" y="960" font-family="Arial" font-size="40" fill="#1F3A8A" text-anchor="middle" dominant-baseline="central">
         Sample Screenshot

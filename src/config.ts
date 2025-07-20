@@ -3,7 +3,7 @@ interface Config {
 }
 
 const config: Config = {
-  projectName: 'notes app'
+  projectName: 'impalia-project'
 };
 
 export default config;
