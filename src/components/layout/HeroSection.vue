@@ -31,13 +31,13 @@
             <p class="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
               Join us as we raise funds, spread awareness, and create impact together.
             </p>
-             <router-link
-            to="/events"
-            class="bg-secondary text-white px-8 py-4 bl-5 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min mx-auto block lg:inline-block text-center"
-            aria-label="Learn more about our events"
-          >
-            Learn More
-          </router-link>
+            <router-link
+  to="/events"
+  class="bg-secondary text-white px-8 py-4 rounded-impalia font-medium hover:bg-[#d2beea] hover:text-secondary transition-colors min-h-touch-min mx-auto block lg:inline-block text-center"
+  aria-label="Learn more about our events"
+>
+  Learn More
+</router-link>
           </div>
           
           <!-- Desktop: Image on right -->

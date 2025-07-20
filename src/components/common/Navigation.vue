@@ -12,7 +12,10 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <!-- Logo + Brand Name -->
+           <router-link
+            to="/">
         <div class="flex items-center space-x-3">
+          
           <img
             src="/impalia-logo.webp"
             alt="Impalia Project Logo"
@@ -23,7 +26,7 @@
             Impalia Project
           </h1>
         </div>
-
+</router-link>
         <!-- ===== Desktop Navigation ===== -->
         <div class="hidden md:flex space-x-8">
           <router-link
